@@ -14,9 +14,9 @@ Pin-Priority: 900
 EOF
 
 cat > /target/etc/apt/sources.list.d/estuary.list <<EOF
-## Estuary 5.0 Overlay
-deb ftp://repoftp:repopushez7411@117.78.41.188/releases/5.0/ubuntu/ estuary-5.0 main
-deb-src ftp://repoftp:repopushez7411@117.78.41.188/releases/5.0/ubuntu/ estuary-5.0 main
+## Estuary 5.1 Overlay
+deb ftp://repoftp:repopushez7411@117.78.41.188/releases/5.1/ubuntu/ estuary-5.1 main
+deb-src ftp://repoftp:repopushez7411@117.78.41.188/releases/5.1/ubuntu/ estuary-5.1 main
 EOF
 
 cp /usr/share/estuary/estuaryrepo.key /target/tmp/key.pub
