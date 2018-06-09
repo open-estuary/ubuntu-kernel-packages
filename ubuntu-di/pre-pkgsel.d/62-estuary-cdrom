@@ -7,6 +7,7 @@ deb ftp://repoftp:repopushez7411@117.78.41.188/releases/5.1/ubuntu/ estuary-5.1 
 deb-src ftp://repoftp:repopushez7411@117.78.41.188/releases/5.1/ubuntu/ estuary-5.1 main
 EOF
 
+apt-install gnupg
 cp /usr/share/estuary/estuaryrepo.key /target/tmp/key.pub
 in-target apt-key add "/tmp/key.pub"
 in-target apt-get update -q || true
