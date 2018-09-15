@@ -2,9 +2,9 @@
 set -e
 
 cat > /target/etc/apt/sources.list.d/estuary.list <<EOF
-## Estuary 5.1 Overlay
-deb ftp://repoftp:repopushez7411@117.78.41.188/releases/5.1/ubuntu/ estuary-5.1 main
-deb-src ftp://repoftp:repopushez7411@117.78.41.188/releases/5.1/ubuntu/ estuary-5.1 main
+## Estuary 5.2 Overlay
+deb ftp://repoftp:repopushez7411@117.78.41.188/releases/5.2/ubuntu/ estuary-5.2 main
+deb-src ftp://repoftp:repopushez7411@117.78.41.188/releases/5.2/ubuntu/ estuary-5.2 main
 EOF
 
 apt-install gnupg
