@@ -41,7 +41,7 @@ Package: linux@SUFFIX@
 Architecture: i386 amd64 armhf arm64 ppc64el s390x
 Section: kernel
 Priority: optional
-Depends: ${misc:Depends}, linux-image@SUFFIX@ (= ${binary:Version}), linux-headers-generic@SUFFIX@ (= ${binary:Version})
+Depends: ${misc:Depends}, linux-image@SUFFIX@ (= ${binary:Version}), linux-headers@SUFFIX@ (= ${binary:Version})
 Description: Complete Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.
